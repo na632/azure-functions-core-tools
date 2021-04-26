@@ -95,7 +95,7 @@ namespace Build
 
         public static readonly string DotnetItemTemplates = $"https://www.nuget.org/api/v2/package/Microsoft.Azure.WebJobs.ItemTemplates/{DotnetItemTemplatesVersion}";
 
-        public static readonly string DotnetProjectTemplates = $"https://www.nuget.org/api/v2/package/Microsoft.Azure.WebJobs.ProjectTemplates/{DotnetProjectTemplatesVersion}";
+        public static readonly string DotnetProjectTemplates = $"https://www.myget.org/F/azure-appservice/api/v2/package/Microsoft.Azure.WebJobs.ProjectTemplates/{DotnetProjectTemplatesVersion}";
 
         public static readonly string TemplatesJsonZip = $"https://functionscdn.azureedge.net/public/TemplatesApi/{TemplateJsonVersion}.zip";
 
